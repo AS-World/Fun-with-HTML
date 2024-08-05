@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="1" class="img-filter fixed-size" src="https://images.pexels.com/photos/19120462/pexels-photo-19120462/free-photo-of-blonde-woman-on-a-balcony-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onclick="removeFilter(1)">
+        <img id="2" class="img-filter fixed-size" src="https://images.pexels.com/photos/26347463/pexels-photo-26347463/free-photo-of-a-woman-holding-a-dog.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onclick="removeFilter(2)">
+        <img id="3" class="img-filter fixed-size" src="https://images.pexels.com/photos/1755385/pexels-photo-1755385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onclick="removeFilter(3)">
+        <img id="4" class="img-filter fixed-size" src="https://images.pexels.com/photos/725463/pexels-photo-725463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onclick="removeFilter(4)">
+        <img id="5" class="img-filter fixed-size" src="https://images.pexels.com/photos/2272854/pexels-photo-2272854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onclick="removeFilter(5)">
+    </div>
+
+    <script>
+        function removeFilter(id) {
+            document.getElementById(id).classList.remove('img-filter')
+        }
+    </script>
+</body>
+</html>
